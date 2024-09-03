@@ -32,7 +32,7 @@ pip install pymongo jupyter notebook
 
 1. Start the MongoDB service:
 ```
-sudo service mongod start
+sudo service mongodb start
 ```
 2. Launch Jupyter Notebook:
 ```
