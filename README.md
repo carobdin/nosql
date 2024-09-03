@@ -16,12 +16,10 @@ This project utilizes MongoDB and Jupyter Notebook to perform data analysis and 
 
 1. Clone the repository:
 ```
-bash
 git clone https://github.com/carobdin/nosql.git
 ```
 2. Install the required dependencies:
 ```
-bash
 pip install pymongo jupyter notebook
 ```
 3. Install MongoDB:
@@ -34,12 +32,10 @@ pip install pymongo jupyter notebook
 
 1. Start the MongoDB service:
 ```
-bash
 sudo service mongod start
 ```
 2. Launch Jupyter Notebook:
 ```
-bash
 jupyter notebook
 ```
 3. Open the project notebook files (`NoSQL_setup_starter.ipynb`) & (`NoSQL_analysis_starter.ipynb`) in Jupyter Notebook.
