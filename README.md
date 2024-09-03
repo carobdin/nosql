@@ -1,4 +1,4 @@
-# nosql-challenge
+# NoSQL
 
 ## Description
 
@@ -15,13 +15,15 @@ This project utilizes MongoDB and Jupyter Notebook to perform data analysis and 
 ## Installation
 
 1. Clone the repository:
-
+```
 bash
-git clone https://github.com/carobdin/nosql-challenge.git
+git clone https://github.com/carobdin/nosql.git
+```
 2. Install the required dependencies:
-
+```
 bash
 pip install pymongo jupyter notebook
+```
 3. Install MongoDB:
 
 - For Windows: Follow the instructions [here](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
@@ -31,13 +33,15 @@ pip install pymongo jupyter notebook
 ## Usage
 
 1. Start the MongoDB service:
-
+```
 bash
 sudo service mongod start
+```
 2. Launch Jupyter Notebook:
-
+```
 bash
 jupyter notebook
+```
 3. Open the project notebook files (`NoSQL_setup_starter.ipynb`) & (`NoSQL_analysis_starter.ipynb`) in Jupyter Notebook.
 
 4. Follow the instructions in the notebook to connect to your MongoDB database and perform data analysis and manipulation.
